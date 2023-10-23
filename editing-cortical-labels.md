@@ -18,7 +18,7 @@
 Open Workbench (`wb_view`) → "Open Other..." → locate your case folder and go to the workbench folder
 → select file `native.wb.spec` → LOAD
 
-[![loading cortical surfaces](assets/images/assets/images/editing-cortical-labels/ctx-labels-000.png)](assets/images/editing-cortical-labels/ctx-labels-000.png)
+[![loading cortical surfaces](assets/images/editing-cortical-labels/ctx-labels-000.png)](assets/images/editing-cortical-labels/ctx-labels-000.png)
 
 
 ---
@@ -27,7 +27,7 @@ Open Workbench (`wb_view`) → "Open Other..." → locate your case folder and g
 
 Select the '(2) Volume' tab.
 
-[![visualise T2](assets/images/assets/images/editing-cortical-labels/ctx-labels-001.png)](assets/images/editing-cortical-labels/ctx-labels-001.png)
+[![visualise T2](assets/images/editing-cortical-labels/ctx-labels-001.png)](assets/images/editing-cortical-labels/ctx-labels-001.png)
 
 ---
 
@@ -35,7 +35,7 @@ Select the '(2) Volume' tab.
 
 In the 'Overlay toolbox' → select ‘Vol/surf Outline’ tab → tick all 'lime' 'blue' options.
 
-[![visualise surfaces](assets/images/assets/images/editing-cortical-labels/ctx-labels-002.png)](assets/images/editing-cortical-labels/ctx-labels-002.png)
+[![visualise surfaces](assets/images/editing-cortical-labels/ctx-labels-002.png)](assets/images/editing-cortical-labels/ctx-labels-002.png)
 
 ---
 
@@ -43,7 +43,7 @@ In the 'Overlay toolbox' → select ‘Vol/surf Outline’ tab → tick all 'lim
 
 Match the slice number (red circles):
 
-[![visualise and edit](assets/images/assets/images/editing-cortical-labels/ctx-labels-003.png)](assets/images/editing-cortical-labels/ctx-labels-003.png)
+[![visualise and edit](assets/images/editing-cortical-labels/ctx-labels-003.png)](assets/images/editing-cortical-labels/ctx-labels-003.png)
 
 The inner and outer surface boundaries should run in parallel with no breaks.
 
@@ -63,13 +63,13 @@ The inner and outer surface boundaries should run in parallel with no breaks.
 
 Common error: discontinuity in cortical surfaces due to white matter voxels mislabelled as cortex.
 
-[![central sulcus error](assets/images/assets/images/editing-cortical-labels/ctx-labels-004.png)](assets/images/editing-cortical-labels/ctx-labels-004.png)
+[![central sulcus error](assets/images/editing-cortical-labels/ctx-labels-004.png)](assets/images/editing-cortical-labels/ctx-labels-004.png)
 
 Corrections needed: Label incorrect cortex voxels as white matter (label 3 over label 2)
 
 |     | Corrected |     |
 |:----|:----------|:----|
-| [![central sulcus before](assets/images/assets/images/editing-cortical-labels/ctx-labels-005.png)](assets/images/editing-cortical-labels/ctx-labels-005.png) | [![central sulcus after](assets/images/assets/images/editing-cortical-labels/ctx-labels-006.png)](assets/images/editing-cortical-labels/ctx-labels-006.png) | ![central sulcus legend](assets/images/assets/images/editing-cortical-labels/ctx-labels-007.png) |
+| [![central sulcus before](assets/images/editing-cortical-labels/ctx-labels-005.png)](assets/images/editing-cortical-labels/ctx-labels-005.png) | [![central sulcus after](assets/images/editing-cortical-labels/ctx-labels-006.png)](assets/images/editing-cortical-labels/ctx-labels-006.png) | ![central sulcus legend](assets/images/editing-cortical-labels/ctx-labels-007.png) |
 
 ---
 
@@ -77,7 +77,7 @@ Corrections needed: Label incorrect cortex voxels as white matter (label 3 over 
 
 Common error: discontinuity in cortical surfaces due to cortical complexity and partial volume. White matter and CSF voxels mislabelled as cortex.
 
-[![parieto-occipital sulcus error](assets/images/assets/images/editing-cortical-labels/ctx-labels-008.png)](assets/images/editing-cortical-labels/ctx-labels-008.png)
+[![parieto-occipital sulcus error](assets/images/editing-cortical-labels/ctx-labels-008.png)](assets/images/editing-cortical-labels/ctx-labels-008.png)
 
 
 Corrections needed: best approach is to manually delineate the cortical ribbon.
@@ -89,7 +89,7 @@ label 2).
 
 |     |     | Corrected |
 |:----|:----|:----------|
-| [![Parieto-occipital sulcus step 1](assets/images/assets/images/editing-cortical-labels/ctx-labels-009.png)](assets/images/editing-cortical-labels/ctx-labels-009.png) | [![Parieto-occipital sulcus step 2](assets/images/assets/images/editing-cortical-labels/ctx-labels-010.png)](assets/images/editing-cortical-labels/ctx-labels-010.png) | [![Parieto-occipital sulcus step 3](assets/images/assets/images/editing-cortical-labels/ctx-labels-011.png)](assets/images/assets/images/editing-cortical-labels/ctx-labels-011.png) |
+| [![Parieto-occipital sulcus step 1](assets/images/editing-cortical-labels/ctx-labels-009.png)](assets/images/editing-cortical-labels/ctx-labels-009.png) | [![Parieto-occipital sulcus step 2](assets/images/editing-cortical-labels/ctx-labels-010.png)](assets/images/editing-cortical-labels/ctx-labels-010.png) | [![Parieto-occipital sulcus step 3](assets/images/editing-cortical-labels/ctx-labels-011.png)](assets/images/assets/images/editing-cortical-labels/ctx-labels-011.png) |
 
 ---
 
@@ -97,7 +97,7 @@ label 2).
 
 Common error: discontinuity in cortical surfaces due to cortical complexity and partial volume. White matter and CSF voxels mislabelled as cortex.
 
-[![sylvian fissure error](assets/images/assets/images/editing-cortical-labels/ctx-labels-012.png)](assets/images/editing-cortical-labels/ctx-labels-012.png)
+[![sylvian fissure error](assets/images/editing-cortical-labels/ctx-labels-012.png)](assets/images/editing-cortical-labels/ctx-labels-012.png)
 
 
 Corrections:
@@ -105,5 +105,4 @@ Corrections:
 1. Label as white matter any voxels mislabelled as cortex (label 3 over label 2).
 2. Label as CSF any voxels mislabelled as cortex (label 1 over label 2).
 Corrected
-
 
