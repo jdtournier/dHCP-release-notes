@@ -1,6 +1,3 @@
----
----
-
 ## Guidelines for editing cortical labels for surface generation (DrawEM v1.2)
 
 ### Software:
@@ -122,45 +119,52 @@ Correction:
 
 ### Other cortical areas - examples
 
-Check for other regions with discontinuity in the surfaces, inspect all slices.
+**Check for other regions with discontinuity in the surfaces, inspect all slices.**
+
 Example: cortical ribbon overestimated, white matter voxels mistakenly labelled as cortex
-Correction: Label 3 over label 2.
 
 [![other cortical areas example 1](assets/images/editing-cortical-labels/ctx-labels-012.png)](assets/images/editing-cortical-labels/ctx-labels-012.png)
 
+Correction: Label 3 over label 2.
+
 ---
 
-Check for other regions with discontinuity in the surfaces, inspect all slices.
+**Check for other regions with discontinuity in the surfaces, inspect all slices.**
+
 Example: cortical ribbon overestimated, CSF voxels mistakenly labelled as cortex
-Correction: Label 1 over label 2.
+
 
 [![other cortical areas example 2](assets/images/editing-cortical-labels/ctx-labels-013.png)](assets/images/editing-cortical-labels/ctx-labels-013.png)
 
----
-
-Check for other regions with discontinuity in the surfaces, inspect all slices.
-Example: Cortex/skull boundary error due to partial volume, CSF labelled as cortex.
 Correction: Label 1 over label 2.
 
+---
+
+**Check for other regions with discontinuity in the surfaces, inspect all slices.**
+
+Example: Cortex/skull boundary error due to partial volume, CSF labelled as cortex.  
+
 [![other cortical areas example 3](assets/images/editing-cortical-labels/ctx-labels-014.png)](assets/images/editing-cortical-labels/ctx-labels-014.png)
+
+Correction: Label 1 over label 2.
 
 ---
 
 ## Good to know
 
--[x] Keyboard shortcuts
-     'S' makes labels invisible
+- [x] Keyboard shortcuts  
+  - 'S' makes labels invisible
+  - +/- size of brush
 
-✓ Before you start: adjust the T2 contrast
-(Tools -> image contrast → contrast adjustment).
+- [x] Before you start: adjust the T2 contrast
+  - (Tools -> image contrast → contrast adjustment).
 
-+/- size of brush
+- [x] First work on the specific ROIs (Central sulcus, Parieto-occipital sulcus, Sylvian fissure, Orbitofrontal cortex).
 
-✓ First work on the specific ROIs (Central sulcus, Parieto-occipital sulcus, Sylvian fissure, Orbitofrontal cortex).
-
-✓ Focus on one ROI at a time. Ignore other errors on the same slice in other areas until the ROI is
+- [x] Focus on one ROI at a time. Ignore other errors on the same slice in other areas until the ROI is
 corrected. Then correct the closest errors.
-✓ Efficient set up: Wacom pen on right hand for editing and mouse on left hand for scrolling (R-handed)
-✓ You can save your segmentation and continue editing later.
 
-
+- [x] Efficient set up: Wacom pen on right hand for editing and mouse on left hand for scrolling (R-handed)
+
+- [x] You can save your segmentation and continue editing later.
+
